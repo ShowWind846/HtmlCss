@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Header */
+header {
+  height: 400px;
+}
+
+h1 {
+  color: grey;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.header-visual {
+  height: 400px;
+  background-image: url(img2/mv.jpg);
+  background-position: bottom;
+  background-size: 100% auto;
+}
+
+
+/* Main */
+.link-contents {
+  width: 840px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.link-item {
+  border-bottom: 1px solid rgba(143, 143, 143, 0.685);
+  padding-bottom: 30px;
+}
+
+.link-img {
+  padding-top: 30px;
+}
+
+span {
+  color: grey;
+}
+
+a {
+  color: grey;
+}
