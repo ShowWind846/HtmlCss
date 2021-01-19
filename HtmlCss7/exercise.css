@@ -18,9 +18,10 @@ h1 {
 
 .header-visual {
   height: 400px;
+  width: 100%;
   background-image: url(img2/mv.jpg);
   background-position: bottom;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 
