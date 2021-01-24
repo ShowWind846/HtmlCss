@@ -1,0 +1,65 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Main */
+main {
+  width: 960px;
+  margin: 50px auto;
+}
+
+/* List */
+ul {
+  list-style: none;
+}
+
+.item {
+  padding: 20px;
+}
+
+.item:nth-child(odd) {
+  background-color: lightgrey;
+}
+
+/* Box-list */
+.Box-list {
+  width: 960px;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Box {
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.Box:nth-child(1),
+.Box:nth-child(5),
+.Box:nth-child(9) {
+  background-color: orange;
+}
+
+.Box:nth-child(2),
+.Box:nth-child(3),
+.Box:nth-child(4),
+.Box:nth-child(6),
+.Box:nth-child(7),
+.Box:nth-child(8) {
+  background-color: yellow;
+}
+
+.Box:nth-child(3n) {
+  margin-right: 0;
+}
+
+.Box:nth-child(7),
+.Box:nth-child(8),
+.Box:nth-child(9) {
+  margin-bottom: 0;
+}
